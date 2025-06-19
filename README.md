@@ -2,16 +2,26 @@
 
 An audio distortion plugin with added downsampling, bit-depth reduction, filtering, and gain capabilities.
 
+## Table of Contents
+
+- [Installation](#installation)
+- [User Interface](#ui)
+- [User Parameters](#user-parameters)
+- [Use Cases](#use-cases)
+
+<a name="installation"></a>
 ## Installation
 
 1. Copy the .vst3 file into the respective plugins folder of your preferred digital audio workstation (DAW).
 2. In your DAW, open the plugin manager and run a scan so that it can be discovered (e.g., _"Scan for installed plugins"_ in FL Studio or _"Re-scan"_ in REAPER).
 3. Give DISTORTICON a go!
 
+<a name="ui"></a>
 ## User Interface
 
 ![Screenshot of the DISTORTICON user interface](https://github.com/jaco12/distorticon/blob/main/info/distorticon-ui-screenshot.png)
 
+<a name="user-parameters"></a>
 ## User Parameters
 
 1. 	**<ins>Pre-filter</ins>:** low shelf, peak/notch, and high shelf filter before the distortion is added
@@ -29,6 +39,7 @@ An audio distortion plugin with added downsampling, bit-depth reduction, filteri
 6. **<ins>Dry gain</ins>:** Gain control for the original, dry audio input. Summed with the wet gain
 7. **<ins>Wet gain</ins>:** Gain control for the affected, wet audio input. Summed with the dry gain
 
+<a name="use-cases"></a>
 ## Use Cases
 
 To test this effect, a simple drum break was used as the input audio because the transients of the drums allow for the distortion to sound more noticeable. This drum break was used to create five simple use cases to showcase the features of the plugin:
