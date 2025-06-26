@@ -13,7 +13,7 @@ An audio distortion plugin with added downsampling, bit-depth reduction, filteri
 ## Installation
 
 1. Copy the .vst3 file into the respective plugins folder of your preferred digital audio workstation (DAW).
-2. In your DAW, open the plugin manager and run a scan so that it can be discovered (e.g., _"Scan for installed plugins"_ in FL Studio or _"Re-scan"_ in REAPER).
+2. In your DAW, open the plugin manager and run a scan so that it can be discovered (e.g., _"Find installed plugins"_ in FL Studio or _"Re-scan"_ in REAPER).
 3. Give DISTORTICON a go!
 
 <a name="ui"></a>
